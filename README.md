@@ -1,5 +1,4 @@
 # Weighted Order-Independent Transparency Demo
-[Morgan McGuire/Casual Effects](http://casual-effects.blogspot.com/2015/03/implemented-weighted-blended-order.html)
-<img src="https://github.com/ericfredericks/weighted-oit-demo/blob/main/img.png?raw=true" alt="Screenshot" width="600"/>
+<img src="https://github.com/ericfredericks/weighted-oit-demo/blob/main/img.png?raw=true" alt="Screenshot" width="500"/>
 <br />
-
+http://casual-effects.blogspot.com/2015/03/implemented-weighted-blended-order.html
