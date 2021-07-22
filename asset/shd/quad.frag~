@@ -1,0 +1,14 @@
+#version 330 core
+
+in vec2 texCoord;
+uniform int uMapOn;
+uniform sampler2D uColorMap;
+uniform sampler2D uAlphaMap;
+uniform vec4 uColor;
+out vec4 FragColor;
+
+void main()
+{
+	FragColor = (1-uMapOn) * uColor;
+	FragColor += uMapOn * vec4(texture(uColorMap,texCoord).rgb,texture(uAlphaMap,texCoord).r);
+}
